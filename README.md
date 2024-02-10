@@ -34,3 +34,14 @@
      c. GetMapping for viewById methods <br> 
     
 ## swagger UI documentation : <br> 
+
+![imges1](Images/1.png)
+## All Entitys : <br>
+
+ ![imges2](Images/2.png)
+
+## All category : <br> 
+ ![imges3](Images/3.png)
+
+ ## database Images : <br> 
+ ![imges4](Images/4.png)
