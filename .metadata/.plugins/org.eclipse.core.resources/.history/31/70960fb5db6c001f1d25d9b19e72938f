@@ -1,0 +1,14 @@
+package com.prospecta.controller;
+
+import org.springframework.web.client.RestTemplate;
+import org.springframework.http.ResponseEntity;
+
+public class RestClient {
+    private final RestTemplate restTemplate = new RestTemplate();
+
+    public String getExample() {
+        String url = "GET /products/category/";
+        ResponseEntity<String> response = restTemplate.getForEntity(url, String.class);
+        return response.getBody();
+    }
+}
