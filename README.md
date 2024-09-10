@@ -26,8 +26,9 @@ Task 3: adding new data in the database is not permanent, it's a temporary base 
 <br>
 
 ## Assignment 2: <br>
-CSV Formula Evaluator<br>
-Problem Description<br>
+# CSV Formula Evaluator<br>
+<br>
+# Problem Description<br>
 This program processes a CSV file where some cells contain values, and others contain Excel-like formulas. The program reads the CSV, evaluates any formulas, and outputs a new CSV file with the calculated results.<br>
 
 Example Input <br>
@@ -41,12 +42,15 @@ After evaluation, the program should replace formulas with calculated values and
 1	5	3	10 <br>
 2	7	8	15 <br>
 3	9	9	24 <br>
-
+<br>
 que 1: How will you tackle the challenge above?<br>
-Ans: Step :<br>
-1. Read the CSV File: Use a library like OpenCSV or manually parse it.<br>
-2. Identify Formulas: Detect if a cell contains a formula.<br>
-3. Evaluate Formulas: Recursively resolve formulas and replace them with calculated values.<br>
+Ans:<br>
+Steps for the Program Flow
+View: reads the input CSV file.<br>
+Controller: passes the data to the Model.<br>
+Model: processes the data, evaluates formulas, and sends the result back to the View.<br>
+View writes the processed data into a new output CSV file.<br>
+
 
 que 2: What type of errors you would you check for?<br>
 Ans: Handle Errors: Handle undefined cells, invalid formulas, and circular references.<br>
